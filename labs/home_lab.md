@@ -189,12 +189,18 @@ Routing and DNS were checked with:
 ip route
 resolvectl status
 ```
+### Mounting issues###
+
+```text
+1. Go to settings
+2. In CD/DVD, uncheck "Connected" and "Connect at power on"
+```
 
 Ubuntu can be suspended when it is not needed.
 
 ---
 
-## 6. Error Encountered: Ubuntu Could Not Ping Windows
+### Error Encountered: Ubuntu Could Not Ping Windows ###
 
 Initial result:
 
@@ -232,7 +238,7 @@ A working connection in one direction does not guarantee the reverse direction w
 
 ---
 
-# 7. Why the Lab Is Designed This Way
+#  Why the Lab Is Designed This Way
 
 The intended traffic flow is:
 
@@ -267,7 +273,7 @@ This gives us a controlled environment for:
 
 ---
 
-# 8. Next Phase: Windows Telemetry
+# Next Phase: Windows Telemetry
 
 The network foundation is now complete.
 
@@ -308,7 +314,7 @@ MITRE ATT&CK
 
 ---
 
-# 9. Event Viewer vs SIEM
+# Event Viewer vs SIEM
 
 Use **Event Viewer first**, then SIEM.
 
@@ -346,7 +352,7 @@ For process investigations, important fields include:
 
 ---
 
-# 10. Process Tree Skill We Want to Build
+# Process Tree Skill We Want to Build
 
 For example:
 
@@ -408,7 +414,7 @@ requires context.
 
 ---
 
-# 11. Sysmon — Next Exercise
+# Sysmon — Next Exercise
 
 The next major exercise is Sysmon, especially:
 
@@ -446,7 +452,7 @@ Only after learning normal behavior should we deliberately create suspicious-loo
 
 ---
 
-# 12. Current Lab Inventory
+# Current Lab Inventory
 
 | Device | Network | IP | Status |
 |---|---|---|---|
@@ -458,7 +464,7 @@ Only after learning normal behavior should we deliberately create suspicious-loo
 
 ---
 
-# 13. Roadmap
+# Roadmap
 
 ```text
 [✓] VMware networking
@@ -494,7 +500,7 @@ Only after learning normal behavior should we deliberately create suspicious-loo
 
 ---
 
-# 14. Key Lessons So Far
+# Key Lessons So Far
 
 ### Network problems are not always network problems
 
