@@ -93,3 +93,18 @@ Remote services are network-accessible interfaces, tools, or protocols that let 
 **🚩 Answer Clue:** <span style="font-size: 1.50em;">**`S**/W****** A**** S*****`**</span>
 
 ### Question 9: It looked like the primary goal of the APT was to steal intellectual property from E-corp's information repositories. Which information repository can be the likely target of the APT?
+Same approach to the earlier questions, we define first what is foreign to us. This time, it's 'information repository'. 
+
+Information Repository is a central storage location that is usually cloud based where data, documents, and files are stored, collected, managed, organized, and maintained for access and retrieval. Some good examples are GitHub, Google Drive, or The Internet Archive
+
+Based on that definition, I can only see one perfect answer. 
+
+**🚩 Answer Clue:** <span style="font-size: 1.50em;">**`S*********`**</span>
+
+### Last question: Although the APT had collected the data, it could not connect to the C2 for data exfiltration. To thwart any attempts to do that, what types of proxy might the APT use? (Answer format: <technique 1> and <technique 2>)
+
+What is a proxy? A proxy acts as an intermediary server that sits between a user's device and the internet, forwarding web requests and replies.
+
+There are two highlighted proxies in the Navigator, that should give us enough clue. 
+
+**🚩 Answer Clue:** <span style="font-size: 1.50em;">**`E******* proxy AND M****-*** proxy`**</span>
